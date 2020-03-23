@@ -1,0 +1,10 @@
+language: node_js
+branches:
+  only:
+  - master
+  - /^update_md$/
+git:
+  depth: 1
+  
+script: 
+- echo ok
