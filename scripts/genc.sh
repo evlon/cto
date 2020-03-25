@@ -1,7 +1,5 @@
 if [ ! -d cache ] ;then mkdir cache;fi
-git remote rm origin
-echo "https://${username}:${password}@github.com/${username}/${repositoryName}.git"
-git remote add origin "https://${username}:${password}@github.com/${username}/${repositoryName}.git"
+git remote add rcache "https://${username}:${password}@github.com/${username}/${repositoryName}.git"
 
 echo -n [ > cache/.cache
 for i in $(find ./ -name .url);  
@@ -10,6 +8,7 @@ done
 cat cache/.cache | sed 's/,$//' > cache/.cache.json 
 echo -n ] >> cache/.cache.json
 rm cache/.cache
-
-git push origin `git subtree split --prefix cache master`:gh-pages --force
-
+git checkout cache
+git add cache/*
+git commit -m '[skip travis] build cache'
+git push rcache cache
