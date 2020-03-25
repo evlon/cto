@@ -10,5 +10,5 @@ cat cache/.cache | sed 's/,$//' > cache/.cache.json
 echo -n ] >> cache/.cache.json
 rm cache/.cache
 
-git push github `git subtree split --prefix examples master`:gh-pages --force
+git push github `git subtree split --prefix cache master`:gh-pages --force
 
