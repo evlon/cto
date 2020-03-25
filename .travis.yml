@@ -1,8 +1,0 @@
-branches:
-  only:
-  - master
-git:
-  depth: 1
-  
-script: 
-- sh ./scripts/genc.sh
