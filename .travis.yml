@@ -7,6 +7,7 @@ git:
   depth: 1
   
 script: 
+- git checkout master
 - bash ./scripts/genc.sh
 - git add .
 - git commit -m '[skip travis] build cache.json'
