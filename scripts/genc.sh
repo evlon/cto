@@ -11,4 +11,4 @@ rm cache/.cache
 git checkout cache
 git add cache/*
 git commit -m '[skip travis] build cache'
-git push rcache cache
+git push rcache cache -f
