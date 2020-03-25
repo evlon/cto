@@ -6,4 +6,4 @@ git:
   depth: 1
   
 script: 
-- bash ./scripts/genc.sh
+- sh ./scripts/genc.sh
