@@ -14,7 +14,7 @@ echo -n ] >> cache/cache.json
 rm cache/.cache
 mv cache ../cache
 
-git switch cache -f
+git checkout cache -f
 cp -rf ../cache/* cache/ 
 git add -A
 git commit -m '[skip travis] build cache'
