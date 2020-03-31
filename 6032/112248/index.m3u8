@@ -1,0 +1,23 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=230000, RESOLUTION=852x480, AUDIO="audio"
+#EXT-X-TARGETDURATION:7
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-VERSION:3
+#EXT-X-KEY:METHOD=AES-128-ECB,URI="https://api-cto.go8.workers.dev/p/dac252bc9896aa10fcb3a8758bb5339716d0a234733d496e8b08a6b6a496c3af6eada9e6652406cd488d31bda14855f9",IV=0x0123456789abcdef0123456789abcdef
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_0.ts
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_1.ts
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_2.ts
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_3.ts
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_4.ts
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_5.ts
+#EXTINF:6.673
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_6.ts
+#EXTINF:4.771
+http://v22.51cto.com/2017/05/23/115361/40fb/general/loco_video_230000_7.ts
+#EXT-X-ENDLIST

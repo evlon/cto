@@ -1,0 +1,21 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=222000, RESOLUTION=1024x768, AUDIO="audio"
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-VERSION:3
+#EXT-X-KEY:METHOD=AES-128-ECB,URI="https://api-cto.go8.workers.dev/p/cbf1bcc795c5e9fb0ea495d39d9d154cadc22143c9eec8fcdf2e7f2dd160948f5d35b24590bc4f7534886655b297660d",IV=0x0123456789abcdef0123456789abcdef
+#EXTINF:10.000
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_0.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_1.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_2.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_3.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_4.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_5.ts
+#EXTINF:9.200
+http://v22.51cto.com/2019/08/09/425930/8ede/high/loco_video_222000_6.ts
+#EXT-X-ENDLIST

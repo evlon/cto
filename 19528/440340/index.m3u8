@@ -1,0 +1,27 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=255000, RESOLUTION=1024x768, AUDIO="audio"
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-VERSION:3
+#EXT-X-KEY:METHOD=AES-128-ECB,URI="https://api-cto.go8.workers.dev/p/1a8daea313ecbeaf8e649023d0a7222848485083c9b676997791bc34167274b7b413537e4bb7954fcbfed269c7eda2ad",IV=0x0123456789abcdef0123456789abcdef
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_0.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_1.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_2.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_3.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_4.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_5.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_6.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_7.ts
+#EXTINF:10.000
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_8.ts
+#EXTINF:5.200
+http://v22.51cto.com/2019/09/05/438186/fb26/high/loco_video_255000_9.ts
+#EXT-X-ENDLIST
